@@ -19,6 +19,8 @@ box-sizing: border-box;
   background-repeat: no-repeat;/* de acuerdo a brief */
   background-size: cover;/* de acuerdo a brief */
   background-position: 50% 50%;/* de acuerdo a brief */
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
@@ -91,16 +93,31 @@ height: 568px;
 width: 646px;
 position: absolute;
 top: 124px;
-right: 0px;
+right: 5px;
 }
 
 .header__footer {
+  margin: auto;
+  margin-left: 80px;
   width: 100%;
-  background-color: red;
   display: flex;
   justify-content: space-between;
+}
+.header__footer__pharagraphs{
   list-style: none;
 }
+.header__pharagraph{
+  font-family: "Inter", Arial, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6F6F6F;
+}
+.header__pharagraph_address{
+  z-index: 100;
+}
+
 .content{
   min-height: 720px;/* de acuerdo a brief */
   max-height: 800px;/* de acuerdo a brief */
