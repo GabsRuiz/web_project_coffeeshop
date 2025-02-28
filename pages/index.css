@@ -7,13 +7,13 @@ box-sizing: border-box;
 .page{
     min-width: 1100px;
     max-width: 1600px;
-    height: 100vh;
 }
 
 
 .header {
   min-height: 720px;/* de acuerdo a brief */
   max-height: 800px;/* de acuerdo a brief */
+  height: 100vh;
   background-color: #FFFFFF;/* de acuerdo a brief */
   background-image: url(../images/background_header.svg);/* de acuerdo a brief */
   background-repeat: no-repeat;/* de acuerdo a brief */
@@ -40,7 +40,7 @@ box-sizing: border-box;
 
 .nav__links {
   display:flex;
-  flex-direction: row;/*utilizarlo como bloque*/
+  flex-direction: row;
   justify-content: space-between;
   column-gap: 20px; /*de acuerdo al brief*/
   list-style-type: none; /*de acuerdo al brief*/
@@ -97,13 +97,13 @@ right: 5px;
 }
 
 .header__footer {
-  margin: auto;
-  margin-left: 80px;
-  width: 100%;
   display: flex;
+  margin-top:auto;
   justify-content: space-between;
 }
 .header__footer__pharagraphs{
+  margin-left: 80px;
+  margin-bottom: 40px;
   list-style: none;
 }
 .header__pharagraph{
@@ -115,6 +115,10 @@ right: 5px;
   color: #6F6F6F;
 }
 .header__pharagraph_address{
+  display:flex;
+  align-items: flex-end;
+  margin-right:80px;
+  margin-bottom: 40px;
   z-index: 100;
 }
 
