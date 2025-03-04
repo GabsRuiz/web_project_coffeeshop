@@ -111,8 +111,7 @@ right: 5px;
   margin-top:auto;
   justify-content: space-between;
 }
-.header__footer_pharagraphs{
-  list-style: none;
+.header__footer_timetable{
   margin-left: 80px;
   margin-bottom: 40px;
   display:flex;
@@ -126,9 +125,9 @@ right: 5px;
   line-height: 20px;
   color: #838383;
 }
-
-.header__pharagraphs_address{
-  margin-right: 40px;
+.header__footer_address{
+  margin-right: 80px;
+  margin-bottom: 40px;
 }
 
 .content{
@@ -187,5 +186,4 @@ font-size: 20px;
 line-height: 30px;
 margin:24px 0 0;
 color:#FFFFFF
-
   }
