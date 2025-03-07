@@ -115,12 +115,22 @@
       <div class="form">
       <form class="form reservation__form">
       <fieldset class="form__fieldset">
-        <label for="name" class="form form__label form__label_name">
-        <input id="name" name="name" class="form form__input form__input_name">
+        <label for="name" class="form form__label form__label_name">Nombre *
+        <input type="text" id="name" name="name"  class="form form__input form__input_name" placeholder="Nombre">
         </label>
-        <button type="submit" id="button" class="form form__button">
+        <label for="number-guests" class="form form__label form__label_number-guests">Número de comensales *
+          <input type="number" id="number-guests" name="number-guests" min="1" max="8" class="form form__input form__input_number-guests" placeholder="1-8">
+        </label>
+        <label for="datetime" class="form form__label form__label_datetime">Fecha y hora *
+          <input type="datetime-local" id="datetime" name="datetime" class="form form__input form__input_datetime">
+        </label>
+        <label for="email" class="form form__label form__label_email">Tu correo electrónico *
+          <input type="email" id="email" name="email" class="form form__input form__input_email" placeholder="email@email.com">
+        </label>
+        <button type="submit" id="button" class="form form__button">Reservar una mesa
         </button>
-        <label for="" class="form form__label form__label_checkbox-container">
+        <label for="checkbox" class="form form__label form__label_checkbox-container">
+        <span class="form form__label_checkbox-text">Acepto los términos de uso</span>
         <input type="checkbox" id="checkbox" name="checkbox" class="form form__checkbox">
         <label for="checkbox" class="form form__label form__label_checkbox">
         </label>
