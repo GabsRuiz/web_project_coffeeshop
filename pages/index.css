@@ -271,20 +271,22 @@ padding:15px 0 15px 20px;
   opacity: 70%;
 }
 
-.form__label_checkbox-container{
+.form__label_checkbox{
   display:flex;
-margin-bottom: 120px;
+  margin-bottom: 120px;
+  justify-content: center;
 
-}
-
-.form__label_checkbox-text{
-  margin-left: 12px;
 }
 .form__checkbox{
   border-radius: 2px;
   height: 20px;
   width:20px;
 }
+
+.form__span_checkbox{
+  margin-left: 12px;
+}
+
 
 
 
