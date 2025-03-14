@@ -15,8 +15,6 @@
   
   .nav__links {
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
     column-gap: 20px;
     list-style-type: none;
     margin: 30px 80px 0 0;
