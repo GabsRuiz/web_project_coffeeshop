@@ -3,6 +3,7 @@ background-color: #0A2850;
 display:flex;
 position: relative;
 overflow: hidden;
+height: 100%;
 }
 
 .footer__circle{
@@ -30,13 +31,48 @@ height: 39px;
 
 }
 .footer__social{
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__social-heading{
 color:#ffff;
+margin-top:0;
+margin-bottom: 16px;
+font-family: "Inter", Arial, serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
 }
 
 .footer__list{
+list-style: none;
+padding: 0;
+}
+
+.footer__list-item{
+display: flex;
+flex-direction:row;
+column-gap: 10px;
+
+}
+
+.footer__social-icon{
+height: 16px;
+width: 16px;
+}
+
+.footer__social-link{
+color: #fff;
+font-family: "Inter", Arial, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+}
+
+.footer__copyright{
 }
 
 
